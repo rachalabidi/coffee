@@ -10,7 +10,7 @@ import Projects from "./pages/Projects";
 const App = () => {
   return (
     
-    <Router>
+    <Router >
     <div className="App">
       <Routes>
         {/* Define routes */}
