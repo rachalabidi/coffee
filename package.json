@@ -1,8 +1,8 @@
 {
-  "name": "protfolio",
+  "name": "coffee",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://rachalabidi.github.io/portfolioRasha/",
+  "private": false,
+  "homepage": "https://rachalabidi.github.io/coffee",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
     "@testing-library/jest-dom": "^5.17.0",
@@ -23,7 +23,6 @@
     "format": "prettier --write .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
@@ -46,5 +45,4 @@
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
-
 }
